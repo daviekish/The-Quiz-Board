@@ -1,5 +1,7 @@
 h1{
   text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  color: : blue;
 }
 #checkpoint {
   color: #000;
