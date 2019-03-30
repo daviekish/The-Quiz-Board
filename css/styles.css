@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   text-shadow: #FC0 1px 0 10px;
-  column-rule-color: lightblue
+  column-rule-color: lightblue;
 }
 #checkpoint {
   color: #000;
