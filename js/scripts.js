@@ -5,7 +5,7 @@ $(document).ready(function() {
           (event) {
             event.preventDefault();
             if (userFirstName.length === 0 || userSecondName.lenght === 0) {
-              $("no name").toggle();
+              $("#no-name").toggle();
             }
           });
       });
