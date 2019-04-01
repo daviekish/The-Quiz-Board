@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles3.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+
   <title></title>
 </head>
 
 <body>
   <div id="checkpoint">
+    <div id="form1">
       <div class="well">
         <p><strong> Q5. Which of the following function of String object creates a string to be displayed as bold as if it were in a b tag?</strong></p>
         <br>
@@ -21,16 +21,19 @@
         <input type="radio" name="questionFive" value="correct">D.bold() <br>
       </div>
       <button type="button" class="btn btn-primary" id="test">View Your Results</button>
-  <br>
-  <br>
-  <div class="results">
-    <div class="well">
-      <p id="results"></p>
-      <br>
-      <input class="button" type="button" value="Retake Test" onclick="reset()">
+    </div>
+    <br>
+    <br>
+    <div class="results">
+      <div class="well">
+        <p id="results"></p>
+        <br>
+        <div id="retake"><a href="index.html"><button>RETAKE QUIZ</button></a></div>
+      </div>
     </div>
   </div>
-</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 
   <div id="particles-js">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -146,7 +149,7 @@
         "retina_detect": true
       });
       var count_particles, stats, update;
-      stats = new Stats;
+      stats = new stats;
       stats.setMode(0);
       stats.domElement.style.position = 'absolute';
       stats.domElement.style.left = '0px';
