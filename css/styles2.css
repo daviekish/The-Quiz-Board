@@ -41,7 +41,7 @@ a {
 }
 
 mark {
-  background-color: #ff9;
+  background-color: #2cb6e1;
   color: #000;
   font-style: italic;
   font-weight: bold
@@ -85,7 +85,7 @@ li {
 html, body {
   width: 100%;
   height: 100%;
-  background: #111;
+  background: #39090c;
 }
 
 html {
@@ -147,4 +147,21 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  column-rule-color: lightblue;
+}
+#checkpoint {
+  color: #000;
+  background-color: #fff;
+  opacity: 0.8;
+  text-align: center;
+  position: absolute;
+  left: 250px;
+  right: 250px;
+  padding: 20px;
+  border: 1px gray solid;
+  font-size:63px
 }
