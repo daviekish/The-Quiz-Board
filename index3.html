@@ -3,10 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles3.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <title></title>
@@ -14,51 +12,25 @@
 
 <body>
   <div id="checkpoint">
-    <div id="form1">
-      <div class="question4">
-        <p>4. Which of these is NOT a JavaScript framework?</p>
-        <div class="inputs">
-          <div class="form-group">
-            <label for="angular">
-              <input value="0" type="radio" name="framework" id="angular">
-              <span class="circle"></span>
-              Angular JS</label>
-          </div>
-          <div class="form-group">
-            <label for="react">
-              <input value="0" type="radio" name="framework" id="react">
-              <span class="circle"></span>
-              React</label>
-          </div>
-          <div class="form-group">
-            <label for="bootstrap">
-              <input value="10" type="radio" name="framework" id="bootstrap">
-              <span class="circle"></span>
-              Bootstrap</label>
-          </div>
-          <div class="form-group">
-            <label for="Backbone">
-              <input value="0" type="radio" name="framework" id="Backbone">
-              <span class="circle"></span>
-              Backbone</label>
-          </div>
-        </div>
+      <div class="well">
+        <p><strong> Q5. Which of the following function of String object creates a string to be displayed as bold as if it were in a b tag?</strong></p>
+        <br>
+        <input type="radio" name="questionFive" value="wrong" required>A.anchor()<br>
+        <input type="radio" name="questionFive" value="wrong">B.big() <br>
+        <input type="radio" name="questionFive" value="wrong">C.blink() <br>
+        <input type="radio" name="questionFive" value="correct">D.bold() <br>
       </div>
-    </div>
-    <br>
-    <br>
-    <button id="submit" class="btn">Submit</button>
-    <br>
-    <br>
-    <div id="score">
-      <p class="text-middle name-display"></p>
-      <p class="text-middle">Your score is:</p>
-      <p class="text-middle scoreDisplay"></p>
+      <button type="button" class="btn btn-primary" id="test">View Your Results</button>
+  <br>
+  <br>
+  <div class="results">
+    <div class="well">
+      <p id="results"></p>
       <br>
-      <br>
-      <div id="retake"><a href="index.html"><button>RETAKE QUIZ</button></a></div>
+      <input class="button" type="button" value="Retake Test" onclick="reset()">
     </div>
   </div>
+</div>
 
   <div id="particles-js">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
