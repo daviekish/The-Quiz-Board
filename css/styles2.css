@@ -154,7 +154,7 @@ h1{
   column-rule-color: lightblue;
 }
 #checkpoint {
-  color: #000;
+  color: green;
   background-color: #fff;
   opacity: 0.8;
   text-align: center;
@@ -163,5 +163,5 @@ h1{
   right: 250px;
   padding: 20px;
   border: 1px gray solid;
-  font-size:63px
+  font-size:20px;
 }
